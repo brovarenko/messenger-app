@@ -109,7 +109,7 @@ const ProfileDrawer: React.FC<ProfileDrawerProps> = ({
                           <div className='text-sm text-gray-500'>
                             {statusText}
                           </div>
-                          <d iv className='flex gap-10 my-8'>
+                          <div className='flex gap-10 my-8'>
                             <div
                               onClick={() => setConfirmOpen(true)}
                               className='flex flex-col gap-3 items-center cursor-pointer hover:opacity-75'
